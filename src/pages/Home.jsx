@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import HeroSection from "../components/HeroSection.jsx/HeroSection";
 import AboutSecion from "../components/AboutSection/AboutSecion";
 import Coaches from "../components/Coaches/Coaches";
-import Plans from "../components/Plans.jsx/plans";
+import Plans from "../components/Plans/Plans";
 import ScheduleSection from "../components/ScheduleSection/ScheduleSection";
 import ContactSection from "../components/ContactSection/ContactSection";
 import FooterSection from "../components/FooterSection/FooterSection";
@@ -15,7 +15,6 @@ import {
   schedule,
   contactInfo,
 } from "@/utils/data";
-import ContactForm from "../components/ContactSection/ContactForm";
 
 const Home = () => {
   return (
