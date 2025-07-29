@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCalendar } from "react-icons/fa";
 
 const ScheduleSection = ({ data }) => {
   return (
@@ -13,14 +14,15 @@ const ScheduleSection = ({ data }) => {
               key={idx}
               className="bg-[#1a1a1a] border border-orange-500 rounded-xl p-6 shadow-md "
             >
-              <h3 className="text-xl font-semibold text-white mb-4">
+              <h3 className="text-xl text-center font-semibold text-white mb-4">
                 {day.day}
               </h3>
+              <p>{day.desc}</p>
               <ul className="space-y-3">
                 {day.classes.map((item, i) => (
-                  <li key={i}>
-                    <div className="flex justify-between items-center text-sm">
-                      <span className="text-white/80">{item.value}</span>
+                  <li key={i} className="text-end">
+                    <div className="flex justify-between text-sm">
+                      <span className="text-white/80">{item.time}</span>
                       <span className="text-orange-400 font-semibold">
                         {item.type}
                       </span>

@@ -1,10 +1,10 @@
 export const coaches = [
-  { name: "coach 1", role: "", image: "", bio: "" },
-  { name: "coach 2", role: "", image: "", bio: "" },
-  { name: "coach 3", role: "", image: "", bio: "" },
-  { name: "coach 4", role: "", image: "", bio: "" },
-  { name: "coach 5", role: "", image: "", bio: "" },
-  { name: "coach 6", role: "", image: "", bio: "" },
+  { name: "Michael", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Reynaldo", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Guillermo", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Javier", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Cristobal", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Natalia", role: "", image: "/sampleImage.png", bio: "" },
 ];
 
 export const testimonials = [
@@ -33,58 +33,92 @@ export const testimonials = [
 
 export const plans = [
   {
-    name: "Plan Mensual",
-    price: "$45.000 CLP",
-    description: "Acceso ilimitado a todas las clases durante un mes.",
+    name: "Plan 1",
+    price: "$27.000 CLP",
+    description:
+      "Acceso a 4 clases durante un mes. Ideal para quienes quieren entrenar de forma ocasional.",
     benefits: [
-      "Clases ilimitadas",
-      "Acceso a todas las disciplinas",
-      "Evaluación física inicial",
+      //   "Clases ilimitadas",
+      //   "Acceso a todas las disciplinas",
+      //   "Evaluación física inicial",
     ],
   },
   {
-    name: "Plan Drop-In",
-    price: "$7.000 CLP",
-    description: "Ideal para quienes quieren entrenar de forma ocasional.",
+    name: "Plan 2",
+    price: "$43.000 CLP",
+    description: "Acceso a 8 clases al mes, 2 dias a la semana.",
     benefits: [
-      "1 clase de CrossFit o Kickboxing",
-      "Acceso completo al box",
-      "Sin compromiso de permanencia",
+      //   "1 clase de CrossFit o Kickboxing",
+      //   "Acceso completo al box",
+      //   "Sin compromiso de permanencia",
     ],
   },
   {
-    name: "Plan Trimestral",
-    price: "$120.000 CLP",
-    description: "Entrena con consistencia y ahorra dinero.",
+    name: "Plan 3",
+    price: "$53.000 CLP",
+    description: "Acceso a 12 clases al mes, 3 dias a la semana.",
     benefits: [
-      "3 meses de entrenamiento",
-      "Evaluaciones mensuales",
-      "Acceso a comunidad privada",
+      //   "3 meses de entrenamiento",
+      //   "Evaluaciones mensuales",
+      //   "Acceso a comunidad privada",
+    ],
+  },
+  {
+    name: "Plan 4",
+    price: "$63.000 CLP",
+    description: "Acceso a 16 clases al mes, 4 dias a la semana.",
+    benefits: [
+      //   "3 meses de entrenamiento",
+      //   "Evaluaciones mensuales",
+      //   "Acceso a comunidad privada",
+    ],
+  },
+  {
+    name: "Plan 5",
+    price: "$53.000 CLP",
+    description: "Acceso a 20 clases al mes, 5 dias a la semana.",
+    benefits: [
+      "Incluye clases especializadas los sabados",
+      // "Evaluaciones mensuales",
+      // "Acceso a comunidad privada",
     ],
   },
 ];
 
 export const schedule = [
   {
-    day: "Lunes",
+    day: "Lunes - Miercoles - Viernes",
+    desc: "",
     classes: [
-      { time: "07:00 - 08:00", type: "CrossFit" },
-      { time: "08:00 - 09:00", type: "Open Box" },
-      { time: "19:00 - 20:00", type: "CrossFit" },
+      { time: "06:00 - 07:00", type: "CROSSFIT" },
+      { time: "08:15 - 09:00", type: "FUNCIONAL" },
+      { time: "11:00 - 13:00", type: "BOXEO" },
+      { time: "18:15 - 19:00", type: "KARATE" },
+      { time: "19:00 - 20:00", type: "CROSSFIT" },
+      { time: "19:30 - 20:30", type: "MUAY THAI" },
+      { time: "20:00 - 21:00", type: "CROSSFIT" },
     ],
   },
   {
-    day: "Martes",
+    day: "Martes - Jueves",
+    desc: "",
     classes: [
-      { time: "07:00 - 08:00", type: "CrossFit" },
-      { time: "20:00 - 21:00", type: "Muay Thai" },
+      { time: "06:00 - 07:00", type: "CROSSFIT" },
+      { time: "07:15 - 08:00", type: "CROSSFIT" },
+      { time: "11:00 - 13:00", type: "BOXEO" },
+      { time: "18:15 - 19:00", type: "KARATE" },
+      { time: "19:00 - 20:00", type: "CROSSFIT" },
+      { time: "19:30 - 20:30", type: "MUAY THAI" },
+      { time: "20:00 - 21:00", type: "CROSSFIT" },
+      { time: "21:30 - 22:30", type: "KICKBOXING" },
     ],
   },
   {
-    day: "Miércoles",
+    day: "Sabado",
+    desc: "Enfocado en desarrollo de tecnica y desafio Hyrox",
     classes: [
-      { time: "07:00 - 08:00", type: "CrossFit" },
-      { time: "19:00 - 20:00", type: "CrossFit" },
+      { time: "10:00 - 11:00", type: "CROSSFIT" },
+      { time: "11:00 - 12:00", type: "CROSSFIT" },
     ],
   },
   // Agrega más días según necesites

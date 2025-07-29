@@ -8,9 +8,11 @@ const HeroSection = () => {
     const tl = gsap.timeline();
 
     tl.to(neonRef.current, { opacity: 0, duration: 0.1 })
+      .to(neonRef.current, { opacity: 1, duration: 0.3 })
+      .to(neonRef.current, { opacity: 0, duration: 0.1 })
       .to(neonRef.current, { opacity: 1, duration: 0.1 })
-      .to(neonRef.current, { opacity: 0, duration: 0.08 })
-      .to(neonRef.current, { opacity: 1, duration: 0.15 })
+      .to(neonRef.current, { opacity: 0, duration: 0.1 })
+      .to(neonRef.current, { opacity: 1, duration: 0.3 })
       .to(neonRef.current, {
         opacity: 1,
         textShadow: "0 0 15px #ff5500, 0 0 30px #ff5500",

@@ -1,5 +1,5 @@
 import React from "react";
-import BullImage from "../../../public/carousel1.jpg";
+import BullImage from "/carousel1.jpg";
 
 const AboutSection = () => {
   return (
@@ -12,7 +12,7 @@ const AboutSection = () => {
         style={{ backgroundImage: `url(${BullImage})` }}
       ></div>
       <div className="absolute inset-0 bg-black/60 md:bg-black/70 z-10"></div>
-      <div className="relative z-20 max-w-4xl mx-auto text-center">
+      <div className="relative z-20 max-w-4xl mx-auto text-justify md:text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange-500">
           Nuestra Historia
         </h2>
