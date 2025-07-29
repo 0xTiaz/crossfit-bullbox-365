@@ -128,10 +128,10 @@ export const schedule = [
 
 export const contactInfo = {
   address: "Roma 2161, Conchali, Region Metropolitana",
-  phone: "+56 9 XXXX XXXX",
+  phone: "+56 9 7978 9434",
   email: "contacto@bullbox365.cl",
-  instagram: "https://instagram.com/bullbox365",
-  whatsapp: "https://wa.me/56912345678",
+  instagram: "https://www.instagram.com/crossfit_bullbox365/",
+  whatsapp: "https://wa.me/+56979789434",
   mapEmbed:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.9332390570703!2d-70.67333150000002!3d-33.39890589999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c76bb0a465d3%3A0x4ecdccb7c666ebe5!2sBullbox%20365!5e0!3m2!1ses!2scl!4v1753738331376!5m2!1ses!2scl", // opcional
 };

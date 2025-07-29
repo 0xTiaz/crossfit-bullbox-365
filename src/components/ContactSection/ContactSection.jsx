@@ -14,7 +14,7 @@ const ContactSection = ({ data }) => {
         <h2 className="text-3xl md:text-4xl font-bold text-orange text-center mb-12">
           Contactanos{" "}
         </h2>
-        <div className="grid md=:gridd-cols-2 gap-12">
+        <div className="grid items-center md:grid-cols-2 gap-12">
           {/* Datos de contacto */}
           <div className="space-y-6">
             <div className="flex items-center gap-4">
@@ -47,18 +47,18 @@ const ContactSection = ({ data }) => {
                 @Crossfit_Bullbox365
               </a>
             </div>
-            <div className="rounded-xl overflow-hidden shadow-lg border border-orange-500">
-              <iframe
-                src={data.mapEmbed}
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicacion Bullbox 365"
-              ></iframe>
-            </div>
+          </div>
+          <div className="rounded-xl overflow-hidden shadow-lg border border-orange-500">
+            <iframe
+              src={data.mapEmbed}
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicacion Bullbox 365"
+            ></iframe>
           </div>
         </div>
         <ContactForm />
