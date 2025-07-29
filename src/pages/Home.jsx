@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import HeroSection from "../components/HeroSection.jsx/HeroSection";
-import AboutSecion from "../components/AboutSection/AboutSecion";
+import AboutSection from "../components/AboutSection/AboutSection";
 import Coaches from "../components/Coaches/Coaches";
 import Plans from "../components/Plans/Plans";
 import ScheduleSection from "../components/ScheduleSection/ScheduleSection";
@@ -22,7 +22,7 @@ const Home = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <AboutSecion />
+        <AboutSection />
         <Coaches data={coaches} />
         <TestimonialsSection data={testimonials} />
         <Plans data={plans} />

@@ -10,7 +10,7 @@ const ScheduleSection = ({ data }) => {
         <div className="grid gap-8 md:grid-cols-3 text-left">
           {data.map((day, idx) => (
             <div
-              kay={idx}
+              key={idx}
               className="bg-[#1a1a1a] border border-orange-500 rounded-xl p-6 shadow-md "
             >
               <h3 className="text-xl font-semibold text-white mb-4">
