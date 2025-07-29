@@ -11,7 +11,7 @@ const AboutSection = () => {
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${BullImage})` }}
       ></div>
-      <div className="absolute inset-0 bg-black/70 z-10"></div>
+      <div className="absolute inset-0 bg-black/60 md:bg-black/70 z-10"></div>
       <div className="relative z-20 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange-500">
           Nuestra Historia
