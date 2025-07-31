@@ -3,7 +3,7 @@ import { BiCheckCircle } from "react-icons/bi";
 
 const PlanCard = ({ plan }) => {
   return (
-    <div className="bg-[#1a1a1a] border border-orange-500 rounded-xl p-6 shadow-md hover:scale-105 transition-transform duration-300">
+    <div className="bg-[#1a1a1a] w-full border border-orange-500 rounded-xl p-6 shadow-md hover:scale-105 transition-transform duration-300">
       <h3 className="text-xl font-bold text-orange-400">{plan.name}</h3>
       <p className="text-white text-2xl font-semibold mt-2">{plan.price}</p>
       <p className="text-white/60 text-sm mt-2">{plan.description}</p>
