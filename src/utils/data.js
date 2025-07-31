@@ -2,8 +2,8 @@ export const coaches = [
   { name: "Michael", role: "", image: "/sampleImage.png", bio: "" },
   { name: "Reynaldo", role: "", image: "/sampleImage.png", bio: "" },
   { name: "Guillermo", role: "", image: "/sampleImage.png", bio: "" },
-  { name: "Javier", role: "", image: "/sampleImage.png", bio: "" },
-  { name: "Cristobal", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Nicolas", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Christian", role: "", image: "/sampleImage.png", bio: "" },
   { name: "Natalia", role: "", image: "/sampleImage.png", bio: "" },
 ];
 
