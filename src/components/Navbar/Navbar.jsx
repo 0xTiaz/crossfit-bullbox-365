@@ -2,14 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { cn } from "../../lib/utils";
 import { LuX } from "react-icons/lu";
-
-const sections = [
-  { id: "#about", label: "Nosotros" },
-  { id: "#coaches", label: "Coaches" },
-  { id: "#plans", label: "Planes" },
-  { id: "#schedule", label: "Horarios" },
-  { id: "#contact", label: "Contacto" },
-];
+import { navItems } from "../../utils/data";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,8 +38,8 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="hidden md:flex space-x-8">
-          {sections.map((item, key) => (
+        <div className="hidden md:flex space-x-3 xl:space-x-8">
+          {navItems.map((item, key) => (
             <a
               key={key}
               href={item.id}
@@ -77,7 +70,7 @@ const Navbar = () => {
           )}
         >
           <div className="flex flex-col space-y-8 text-xl">
-            {sections.map((item, key) => (
+            {navItems.map((item, key) => (
               <a
                 key={key}
                 href={item.id}

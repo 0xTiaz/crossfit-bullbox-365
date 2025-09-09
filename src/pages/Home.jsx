@@ -8,12 +8,14 @@ import ScheduleSection from "../components/ScheduleSection/ScheduleSection";
 import ContactSection from "../components/ContactSection/ContactSection";
 import FooterSection from "../components/FooterSection/FooterSection";
 import TestimonialsSection from "../components/TestimonialsSection/TestimonialsSection";
+import OurBox from "../components/OurBox/OurBox";
 import {
   coaches,
   testimonials,
   plans,
   schedule,
   contactInfo,
+  images,
 } from "@/utils/data";
 
 const Home = () => {
@@ -25,6 +27,7 @@ const Home = () => {
         <AboutSection />
         <Coaches data={coaches} />
         <TestimonialsSection data={testimonials} />
+        <OurBox data={images} />
         <Plans data={plans} />
         <ScheduleSection data={schedule} />
         <ContactSection data={contactInfo} />

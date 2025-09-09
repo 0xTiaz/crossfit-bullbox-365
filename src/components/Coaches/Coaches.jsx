@@ -9,10 +9,15 @@ const Coaches = ({ data }) => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-orange-500">
-          Conoce a Nuestra Familia
+          Conoce Nuestra Familia
         </h2>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
-          {data.map((coach, idx) => (
+        <div className="mt-8 flex justify-center gap-8 flex-wrap">
+          {data.slice(0, 2).map((coach, idx) => (
+            <CoachCard key={idx} {...coach} />
+          ))}
+        </div>
+        <div className=" mt-8 grid gap-8 grid-cols-1 md:grid-cols-3">
+          {data.slice(2, 8).map((coach, idx) => (
             <CoachCard key={idx} {...coach} />
           ))}
         </div>

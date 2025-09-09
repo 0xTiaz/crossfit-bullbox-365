@@ -1,10 +1,68 @@
+import {
+  LayoutDashboard,
+  Notebook,
+  IdCard,
+  CalendarDays,
+  LogOut,
+} from "lucide-react";
+
 export const coaches = [
-  { name: "Michael", role: "", image: "/sampleImage.png", bio: "" },
-  { name: "Reynaldo", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Michael", role: "", image: "/michel.jpeg", bio: "" },
+  { name: "Reynaldo", role: "", image: "/reynaldo.jpeg", bio: "" },
   { name: "Guillermo", role: "", image: "/sampleImage.png", bio: "" },
   { name: "Nicolas", role: "", image: "/sampleImage.png", bio: "" },
-  { name: "Christian", role: "", image: "/sampleImage.png", bio: "" },
-  { name: "Natalia", role: "", image: "/sampleImage.png", bio: "" },
+  { name: "Christofer", role: "", image: "/sampleImage.png", bio: "" },
+  // { name: "Natalia", role: "", image: "/sampleImage.png", bio: "" },
+];
+
+// export const SIDE_MENU_DATA = [
+//   { id: "01", label: "Dashboard", icon: LayoutDashboard, path: "/dashboard" },
+//   { id: "02", label: "Noticias", icon: Notebook, path: "/dashboard" },
+//   { id: "03", label: "Membresia", icon: IdCard, path: "/dashboard" },
+//   {
+//     id: "04",
+//     label: "Agenda tu clase",
+//     icon: CalendarDays,
+//     path: "/dashboard",
+//   },
+//   { id: "10", label: "Cerrar sesión", icon: LogOut, path: "logout" },
+// ];
+
+// export const SIDE_MENU_DATA_ADMIN = [
+//   { id: "01", label: "Dashboard", icon: "", path: "" },
+//   { id: "02", label: "Planes", icon: "", path: "" },
+//   { id: "03", label: "Alumnos", icon: "", path: "" },
+//   { id: "04", label: "Coaches", icon: "", path: "" },
+//   { id: "10", label: "Cerrar sesión", icon: "", path: "" },
+// ];
+
+export const navItems = [
+  { id: "#about", label: "Nosotros" },
+  { id: "#coaches", label: "Coaches" },
+  { id: "#plans", label: "Planes" },
+  { id: "#schedule", label: "Horarios" },
+  { id: "#contact", lel: "Contacto" },
+  // { id: "/login", label: "Log In" },
+];
+
+export const images = [
+  {
+    name: "BoxImage",
+    src: "/anillas.jpeg",
+    desc: "Implementacion de Anillas",
+    title: "Anillas",
+  },
+  { name: "BoxImage", src: "/class.JPEG", desc: "", title: "Recuperacion" },
+  {
+    name: "BoxImage",
+    src: "/bar.jpeg",
+    desc: "",
+    title: "Barbell / Barras Olimpicas",
+  },
+  { name: "BoxImage", src: "/merch.JPEG", desc: "", title: "MATS" },
+  { name: "BoxImage", src: "/balls.JPEG", desc: "", title: "Balones" },
+  { name: "BoxImage", src: "/logo.JPEG", desc: "", title: "Bandas Elasticas" },
+  // { name: "BoxImage", src: "", desc: "", title: "" },
 ];
 
 export const testimonials = [

@@ -10,10 +10,10 @@ const CoachCard = ({ name, role, image }) => {
       initial={{ opacity: 0, y: 40 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.9, ease: "easeOut" }}
-      className="relative bg-black/5 backgrop-blur-sm rounded-xl shadow-sm shadow-orange-500/60 h-100 p-6 text-white text-center"
+      className="relative bg-black/5 backgrop-blur-sm rounded-xl shadow-sm shadow-orange-500/60 h-100 w-90 p-6 text-white text-center"
     >
       <div
-        className="absolute inset-0 bg-cover bg-center z-0"
+        className="absolute inset-0 bg-cover bg-center z-0 rounded-2xl"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 h-auto rounded-2xl"></div>
