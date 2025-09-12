@@ -19,7 +19,9 @@ const TestimonialsSection = ({ data }) => {
                   {item.name}
                 </h3>
                 <p className="text-sm text-white/60 italic">{item.role}</p>
-                <p className="text-white/80 text-sm mt-4">"{item.comment}"</p>
+                <p className="text-white/80 text-sm mt-4 italic font-semibold">
+                  "{item.comment}"
+                </p>
               </div>
             ))}
           </div>

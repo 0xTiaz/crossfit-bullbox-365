@@ -8,8 +8,15 @@ const ScheduleSection = ({ data }) => {
         <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-12">
           Horarios Semanales
         </h2>
-        <div className="grid gap-8 md:grid-cols-3 text-left">
-          {data.map((day, idx) => (
+        <div className="grid gap-8 md:grid-cols-2 text-left">
+          <div className="rounded-xl shadow-sm shadow-orange-500 h-fit">
+            <img src="/horarioAM.jpeg" className="rounded-xl " alt="" />
+          </div>
+          <div className="rounded-xl shadow-sm shadow-orange-500">
+            <img src="/horarioPM.jpeg" alt="" className="rounded-xl" />
+          </div>
+
+          {/* {data.map((day, idx) => (
             <div
               key={idx}
               className="bg-[#1a1a1a] border border-orange-500 rounded-xl p-6 shadow-md "
@@ -31,7 +38,7 @@ const ScheduleSection = ({ data }) => {
                 ))}
               </ul>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
