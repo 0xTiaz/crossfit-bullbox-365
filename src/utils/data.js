@@ -36,11 +36,11 @@ export const coaches = [
     bio: `""`,
   },
   {
-    name: "Cristopher",
+    name: "Cristopher Adriazola",
     alias: "Toffy",
     role: "COACH HALTEROFILIA",
     image: "/toffy.jpeg",
-    bio: `""`,
+    bio: `"Confia en tu proceso, el sacrificio y el trabajo realizado, asi podras romper tus limites."`,
   },
   // {
   //   name: "Cristopher",
