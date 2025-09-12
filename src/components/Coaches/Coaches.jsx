@@ -13,7 +13,7 @@ const Coaches = ({ data }) => {
         </h2>
         <div className="mt-8 flex justify-center gap-8 flex-wrap">
           {data.slice(0, 2).map((coach, idx) => (
-            <CoachCard key={idx} {...coach} grid />
+            <CoachCard key={idx} {...coach} />
           ))}
         </div>
         <div className="mt-8 grid gap-8 grid-cols-1 md:grid-cols-3">
