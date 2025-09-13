@@ -84,7 +84,7 @@ export const testimonials = [
     name: "Robert Ortega",
     role: "Miembro desde 2025",
     comment:
-      "Para mi Significa familia. He sentido el apoyo de muchas personas, llegué aqui prácticamente de cero y todos aqui me han apoyado para seguir avanzando.",
+      "Para mi significa familia. He sentido el apoyo de muchas personas, llegué aqui prácticamente de cero y todos aqui me han apoyado para seguir avanzando.",
     image: "/testimonials/valentina.jpg",
   },
   {
