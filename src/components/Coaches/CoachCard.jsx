@@ -13,7 +13,7 @@ const CoachCard = ({ name, role, image, bio, alias, grid }) => {
       transition={{ duration: 0.9, ease: "easeOut" }}
       className={cn(
         "relative bg-black/5 backgrop-blur-sm rounded-xl shadow-sm shadow-orange-500/60 h-100 p-6 text-white text-center",
-        grid ? "w-90" : "w-[100%]"
+        grid ? "w-90" : "w-full"
       )}
     >
       <div
