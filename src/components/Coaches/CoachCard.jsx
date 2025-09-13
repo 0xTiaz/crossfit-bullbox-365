@@ -12,8 +12,8 @@ const CoachCard = ({ name, role, image, bio, alias, grid }) => {
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.9, ease: "easeOut" }}
       className={cn(
-        "relative bg-black/5 backgrop-blur-sm rounded-xl shadow-sm shadow-orange-500/60 h-100 p-6 text-white text-center",
-        grid ? "w-90" : "w-full"
+        "relative bg-black/5 backgrop-blur-sm rounded-xl w-full md:w-90 shadow-sm shadow-orange-500/60 h-100 p-6 text-white text-center",
+        grid ? "md:w-90" : "w-full"
       )}
     >
       <div

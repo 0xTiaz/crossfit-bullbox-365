@@ -105,7 +105,7 @@ export const testimonials = [
     name: "Mery Oruna",
     role: "Atleta amateur",
     comment:
-      "... llegue al box vibrando super bajo. Desde que llegue a bullbox logre a superar mis limites gracias al apañe y motivación de parte de todos. Aca no solo se entrena cuerpo sino que también se entrena la mente, el superar tus demonios.",
+      "... llegue al box vibrando super bajo. Desde que llegue a bullbox logre superar mis limites gracias al apañe y motivación de parte de todos. Aca no solo se entrena cuerpo sino que también se entrena la mente, el superar tus demonios.",
     image: "/testimonials/pablo.jpg",
   },
   {
