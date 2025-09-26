@@ -57,7 +57,11 @@ const Navbar = () => {
           className="md:hidden p-2 z-70"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <LuX size={30} /> : <IoMenu size={30} />}
+          {isMenuOpen ? (
+            <LuX size={30} className="text-foreground" />
+          ) : (
+            <IoMenu size={30} className="text-foreground" />
+          )}
         </button>
 
         <div
