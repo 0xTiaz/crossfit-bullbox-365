@@ -3,9 +3,9 @@ import { FaCalendar } from "react-icons/fa";
 
 const ScheduleSection = ({ data }) => {
   return (
-    <section className="bg-black py-20 px-6 text-white" id="schedule">
+    <section className="bg-background py-20 px-6 text-white" id="schedule">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12">
           Horarios Semanales
         </h2>
         <div className="grid gap-8 md:grid-cols-2 text-left">

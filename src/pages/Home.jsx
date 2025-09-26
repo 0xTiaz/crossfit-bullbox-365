@@ -17,11 +17,14 @@ import {
   contactInfo,
   images,
 } from "@/utils/data";
+import ThemeToggle from "../components/ThemeToggle/ThemeToggle";
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#121212] text-white overflow-x-hidden">
+      <ThemeToggle />
       <Navbar />
+
       <main>
         <HeroSection />
         <AboutSection />

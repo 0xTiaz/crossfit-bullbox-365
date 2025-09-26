@@ -5,10 +5,10 @@ const Coaches = ({ data }) => {
   return (
     <section
       id="coaches"
-      className="py-20 px-6 bg-black text-white text-center"
+      className="py-20 px-6 bg-background text-foreground text-center"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-orange-500">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-primary">
           Conoce Nuestra Familia
         </h2>
         <div className="mt-8 flex justify-between md:justify-center gap-8 flex-wrap">

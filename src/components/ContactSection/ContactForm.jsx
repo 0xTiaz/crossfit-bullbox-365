@@ -44,12 +44,12 @@ const ContactForm = () => {
 
   return (
     <div className="mt-12">
-      <h3 className="text-2xl font-semibold mb-6 text-center text-orange-500">
+      <h3 className="text-2xl font-semibold mb-6 text-center text-primary">
         Tienes dudas o sugerencias?
       </h3>
       <form
         onSubmit={handleSubmit}
-        className="space-y-6 bg-black/30 p-6 rounded-lg shadow-xl border border-orange-500"
+        className="space-y-6 bg-foreground p-6 rounded-lg shadow-xl border border-orange-500"
       >
         <div className="grid md:grid-cols-2 gap-6">
           <TextInput
@@ -88,7 +88,7 @@ const ContactForm = () => {
         />
         <button
           type="submit"
-          className="bg-orange-500 hover:bg-orange-600 transition-all duration-200 text-white font-semibold py-3 px-6 rounded-lg"
+          className="bg-primary hover:bg-orange-600 transition-all duration-200 text-white font-semibold py-3 px-6 rounded-lg"
         >
           {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
         </button>

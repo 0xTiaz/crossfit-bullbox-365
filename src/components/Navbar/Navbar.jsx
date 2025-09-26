@@ -31,9 +31,9 @@ const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="/"
         >
-          <span className="relative z-10">
+          <span className="relative z-10 text-foreground">
             <span>
-              Crossfit <span className="text-orange-500">Bullbox 365</span>
+              Crossfit <span className="text-primary">Bullbox 365</span>
             </span>
           </span>
         </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
             <a
               key={key}
               href={item.id}
-              className="text-white/80 hover:text-orange-500 transition-colors duration-300"
+              className="text-foreground hover:text-orange-500 transition-colors duration-300"
             >
               {item.label}
             </a>

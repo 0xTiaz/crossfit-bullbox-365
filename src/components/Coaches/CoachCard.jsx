@@ -22,11 +22,13 @@ const CoachCard = ({ name, role, image, bio, alias, grid }) => {
       ></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent z-10 h-auto rounded-2xl"></div>
       <div className="relative z-20 top-60 max-w-4xl mx-auto text-center md:text-center h-full">
-        <h4 className="text-xl font-bold text-orange-500">
+        <h4 className="text-xl font-bold text-primary">
           {name} - "{alias}"
         </h4>
-        <p className="text-sm text-white/70">{role}</p>
-        <p className="text-md text-justify font-semibold italic">{bio}</p>
+        <p className="text-sm text-primary-foreground">{role}</p>
+        <p className="text-md text-primary-foreground text-justify font-semibold italic">
+          {bio}
+        </p>
       </div>
     </motion.div>
   );

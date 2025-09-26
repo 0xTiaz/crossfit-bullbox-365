@@ -15,21 +15,21 @@ const HeroSection = () => {
       .to(neonRef.current, { opacity: 1, duration: 0.3 })
       .to(neonRef.current, {
         opacity: 1,
-        textShadow: "0 0 15px #ff5500, 0 0 30px #ff5500",
+        textShadow: "0 0 15px #ff9d13, 0 0 30px #ff9d13",
       });
   }, []);
   return (
     <section
       id="home"
-      className="h-screen bg-[#121212] text-white flex flex-col items-center justify-center px-6 text-center"
+      className="h-screen bg-background text-foreground flex flex-col items-center justify-center px-6 text-center"
     >
-      <h1 className="text-4xl md:text-6xl font-bold mb-4">
+      <h1 className="text-4xl md:text-6xl font-bold mb-4 text-">
         Crossfit{" "}
         <span
           ref={neonRef}
-          className="text-orange-500"
+          className="text-primary"
           style={{
-            textShadow: "0 0 0 #ff5500",
+            textShadow: "0 0 0 #ff9d13",
             transition: "text-shadow 0.3s ease-in-out",
           }}
         >
@@ -41,7 +41,7 @@ const HeroSection = () => {
       </p>
       <a
         href="#contact"
-        className="bg-orange-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-orange-400 transition"
+        className="bg-primary text-black px-6 py-3 rounded-full font-semibold hover:bg-orange-400 transition"
       >
         Agenda tu clase gratis
       </a>
